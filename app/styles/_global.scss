@@ -1,6 +1,12 @@
 // Global styles
+// *,
+// *::before,
+// *::after {
+//   box-sizing: border-box
+// }
+
 body {
-  padding: 50px 30px;
+  padding: 4.5rem 8.5%;
   margin : 0;
 
   font-family: 'Karla', sans-serif;
@@ -8,8 +14,9 @@ body {
   background-color: $neutral-light-color;
 }
 
+
 .app {
-  max-width   : 510px;
+  max-width   : 31.875rem;
   margin-right: auto;
   margin-left : auto;
 }
@@ -17,8 +24,8 @@ body {
 
 
 // Media Queries
-@media (min-width: 769px) {
+@media (min-width: 48rem) {
   body {
-    padding: 110px 60px;
+    padding: 8.2rem 17%;
   }
 }
