@@ -1,0 +1,68 @@
+// Why us block
+.why-us {
+  padding: .62rem 7.7%;
+
+  background-color: $primary-light-color;
+}
+
+
+
+// Why us elements
+.why-us__h1 {
+  margin-top: .79rem;
+
+  font-size: 1.1rem;
+}
+
+
+.why-us__ul {
+  margin-top: 1.2rem;
+
+  padding-left: 0;
+
+  list-style: none;
+
+  font-size     : .9rem;
+  line-height   : 1.4;
+  letter-spacing: -.023rem;
+
+  opacity: .7;
+}
+
+
+/*
+// Media Queries
+@media (min-width: 48rem) {
+
+  // Why us block
+  .why-us {
+    padding: .62rem 7.7%;
+
+    background-color: $primary-light-color;
+  }
+
+
+
+  // Why us elements
+  .why-us__h1 {
+    margin-top: .79rem;
+
+    font-size: 1.1rem;
+  }
+
+
+  .why-us__ul {
+    margin-top: 1.2rem;
+
+    padding-left: 0;
+
+    list-style: none;
+
+    font-size     : .9rem;
+    line-height   : 1.4;
+    letter-spacing: -.023rem;
+
+    opacity: .7;
+  }
+}
+*/
