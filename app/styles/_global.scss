@@ -1,4 +1,24 @@
 // Global styles
 body {
+  padding: 50px 30px;
+  margin : 0;
+
   font-family: 'Karla', sans-serif;
+
+  background-color: $neutral-light-color;
+}
+
+.app {
+  max-width   : 510px;
+  margin-right: auto;
+  margin-left : auto;
+}
+
+
+
+// Media Queries
+@media (min-width: 769px) {
+  body {
+    padding: 110px 60px;
+  }
 }
