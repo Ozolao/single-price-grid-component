@@ -1,10 +1,3 @@
-// Double column block
-.double-column {
-  color: white;
-}
-
-
-
 // Subscription block
 .subscription {
   padding: .9375rem 7.7%;
@@ -65,13 +58,6 @@
 
 // Media Queries
 @media (min-width: 48rem) {
-
-  // Double column block
-  .double-column {
-    display: flex;
-  }
-
-
 
   // Subscription block
   .subscription {

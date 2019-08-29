@@ -1,0 +1,15 @@
+// Double column block
+.double-column {
+  color: white;
+}
+
+
+
+// Media Queries
+@media (min-width: 48rem) {
+
+  // Double column block
+  .double-column {
+    display: flex;
+  }
+}
