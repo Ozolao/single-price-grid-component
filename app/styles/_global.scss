@@ -19,10 +19,14 @@ button {
 }
 
 
+
 .app {
   max-width   : 39.7rem;
   margin-right: auto;
   margin-left : auto;
+
+  border-radius: .3125rem;
+  overflow     : hidden;
 }
 
 
@@ -32,5 +36,11 @@ button {
   body {
     padding-top   : 10.2rem;
     padding-bottom: 10.2rem;
+  }
+
+
+
+  .app {
+    border-radius: .5rem;
   }
 }
